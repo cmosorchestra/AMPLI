@@ -1,0 +1,1888 @@
+(kicad_sch (version 20250114) (generator "eeschema")
+ (uuid "0ea6f97a-5872-4031-9f56-c1f6816dc66f") (paper "A3")
+ (title_block (title "LM1875T stereo amplifier") (comment 1 "4 ohm speakers; +/-12 V supply"))
+ (lib_symbols (symbol "Amplifier_Audio:LM1875"
+		(pin_names
+			(offset 0.127)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 3.81 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1875"
+			(at 3.81 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1875.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "20W Audio Power Amplifier, TO-220-5"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "audio amplifier"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "TO?220*StaggerOdd*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "LM1875_0_1"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "LM1875_1_1"
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 7.62 270)
+				(length 3.81)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "Device:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "Device:C_Polarized"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_Polarized_0_1"
+			(rectangle
+				(start -2.286 0.508)
+				(end 2.286 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 2.286) (xy -0.762 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.794) (xy -1.27 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.286 -0.508)
+				(end -2.286 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "C_Polarized_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "Device:R_Potentiometer_Dual"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "RV"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer_Dual"
+			(at 0 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 6.35 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 6.35 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual potentiometer"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "pot_dual"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r1A 2=wA 3=r0A 4=r1B 5=wB 6=r0B"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "Rtot=1 wpos=0.4"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "resistor variable"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Potentiometer*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_Potentiometer_Dual_0_1"
+			(rectangle
+				(start -8.89 -1.524)
+				(end -3.81 -3.556)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.35 0) (xy -6.35 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.35 0) (xy -6.35 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.35 0) (xy -5.842 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.35 -1.397) (xy -6.858 -0.254) (xy -5.842 -0.254) (xy -6.35 -1.397)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.588 0.508) (xy -5.08 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.572 0.508) (xy -4.064 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.556 0.508) (xy -3.048 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0.508) (xy -2.032 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy -1.016 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0.508) (xy 0 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 0.508) (xy 1.016 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 0.508) (xy 2.032 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0.508) (xy 3.048 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.556 0.508) (xy 4.064 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 -1.524)
+				(end 8.89 -3.556)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 0.508) (xy 5.08 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.588 0.508) (xy 6.096 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 0) (xy 6.35 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 0) (xy 6.35 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -1.397) (xy 5.842 -0.254) (xy 6.858 -0.254) (xy 6.35 -1.397)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.604 0.508) (xy 6.858 0.508) (xy 6.35 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_Potentiometer_Dual_1_1"
+			(pin passive line
+				(at -10.16 -2.54 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 2.54 270)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 180)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -2.54 0)
+				(length 1.27)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 2.54 270)
+				(length 2.54)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -2.54 180)
+				(length 1.27)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "Connector_Generic:Conn_01x02"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x02_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "Connector_Generic:Conn_01x03"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x03_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "power:PWR_FLAG"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#FLG"
+			(at 0 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "flag power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_0"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+ (symbol (lib_id "Connector_Generic:Conn_01x03") (at 45.72 55.88 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "c51c301e-da1a-4a53-adff-c9bea9046246")
+      (property "Reference" "J1" (at 45.72 45.72 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "LINE INPUT" (at 60.96 63.5 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal" (at 45.72 55.88 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "J1") (unit 1))))) (symbol (lib_id "Device:R_Potentiometer_Dual") (at 96.52 55.88 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "21862a06-2a85-42c0-8ec2-37c2123c1ff1")
+      (property "Reference" "RV1" (at 96.52 40.64 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "10k audio taper, dual gang" (at 116.84 43.18000000000001 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical" (at 96.52 55.88 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "RV1") (unit 1))))) (wire (pts (xy 90.17 53.34) (xy 90.17 48.26)) (stroke (width 0) (type default)) (uuid "5ac21acd-1340-4b1c-9065-86e4dfd9487c")) (label "VOL_L" (at 90.17 48.26 90) (effects (font (size 1.27 1.27))) (uuid "f820b1fa-17dc-425b-b671-b159f158fbca")) (wire (pts (xy 102.87 53.34) (xy 102.87 48.26)) (stroke (width 0) (type default)) (uuid "bdeb11a4-ecb4-457e-81e0-e0782c429269")) (label "VOL_R" (at 102.87 48.26 90) (effects (font (size 1.27 1.27))) (uuid "e353f0f4-3fc7-4fe1-80c0-a86ecafe3ad7")) (wire (pts (xy 40.64 53.34) (xy 40.64 40.64)) (stroke (width 0) (type default)) (uuid "bedf38e1-ce7c-41c8-9b45-59cdc66f47e9")) (wire (pts (xy 40.64 40.64) (xy 86.36 40.64)) (stroke (width 0) (type default)) (uuid "860c8b13-89a5-4ae2-9d25-7108eaa3ada0")) (wire (pts (xy 86.36 40.64) (xy 86.36 58.42)) (stroke (width 0) (type default)) (uuid "e3d08ded-e5e8-40ab-93b4-b31393ce2baf")) (wire (pts (xy 40.64 55.88) (xy 53.34 55.88)) (stroke (width 0) (type default)) (uuid "8585db66-26c1-44de-a415-edec8266f90f")) (wire (pts (xy 53.34 55.88) (xy 53.34 76.2)) (stroke (width 0) (type default)) (uuid "67c85a58-753b-491c-8023-3ee80094ee74")) (wire (pts (xy 53.34 76.2) (xy 99.06 76.2)) (stroke (width 0) (type default)) (uuid "6af699b3-40ac-486c-8710-b8ba5e575b56")) (wire (pts (xy 99.06 76.2) (xy 99.06 58.42)) (stroke (width 0) (type default)) (uuid "1859c54e-fffa-46f5-9eea-f69484969a85")) (wire (pts (xy 40.64 58.42) (xy 40.64 83.82)) (stroke (width 0) (type default)) (uuid "529a265d-37b7-4fe9-8808-9c1f70b81b75")) (wire (pts (xy 93.98 58.42) (xy 93.98 83.82)) (stroke (width 0) (type default)) (uuid "61cc9ea0-1090-49d6-97e9-be42fdad9f19")) (wire (pts (xy 106.68 58.42) (xy 106.68 83.82)) (stroke (width 0) (type default)) (uuid "361fc207-1539-4780-a2a9-a1067a3dfbe6")) (wire (pts (xy 40.64 83.82) (xy 93.98 83.82)) (stroke (width 0) (type default)) (uuid "3544dccc-64af-4eb2-8818-576e7f47bf64")) (wire (pts (xy 93.98 83.82) (xy 106.68 83.82)) (stroke (width 0) (type default)) (uuid "12381754-73f0-4b46-a620-c9c716f475c1")) (junction (at 40.64 83.82) (diameter 1.27) (color 0 0 0 0) (uuid "cead002b-72c1-4105-ae8e-b60d4d2fefbf")) (junction (at 93.98 83.82) (diameter 1.27) (color 0 0 0 0) (uuid "86cfefc2-d25e-464f-b2b9-00b5d2bedbd9")) (junction (at 106.68 83.82) (diameter 1.27) (color 0 0 0 0) (uuid "b6995eb5-3a18-4471-8d31-26dcc7274f23")) (wire (pts (xy 40.64 83.82) (xy 35.56 83.82)) (stroke (width 0) (type default)) (uuid "53d8b34f-6663-4daa-9637-304a87f5e46b")) (label "GND" (at 35.56 83.82 180) (effects (font (size 1.27 1.27))) (uuid "980b6674-ce2e-4ae5-bd35-cdac77fe111a")) (symbol (lib_id "Connector_Generic:Conn_01x03") (at 365.76 55.88 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "7ac0b621-d069-41de-a9fb-4ef8bc3c19a0")
+      (property "Reference" "J2" (at 365.76 45.72 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "+/-12V DC INPUT" (at 365.76 66.04 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal" (at 365.76 55.88 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "J2") (unit 1))))) (wire (pts (xy 360.68 53.34) (xy 355.6 53.34)) (stroke (width 0) (type default)) (uuid "dcf7e310-e2cc-4adc-b94a-a256af76d389")) (label "+12V" (at 355.6 53.34 180) (effects (font (size 1.27 1.27))) (uuid "ad049e6b-7183-4f26-8276-5175afa3cd20")) (wire (pts (xy 360.68 55.88) (xy 355.6 55.88)) (stroke (width 0) (type default)) (uuid "e15c9fc5-3697-491e-a38a-36ec661e17b2")) (label "GND" (at 355.6 55.88 180) (effects (font (size 1.27 1.27))) (uuid "0f124290-460e-4dbe-81b3-621356448ba5")) (wire (pts (xy 360.68 58.42) (xy 355.6 58.42)) (stroke (width 0) (type default)) (uuid "f7602d46-5aee-4f95-acc6-4d5e883f8183")) (label "-12V" (at 355.6 58.42 180) (effects (font (size 1.27 1.27))) (uuid "64564693-25d7-4f36-b201-354cff6ab2f9")) (symbol (lib_id "power:PWR_FLAG") (at 360.68 53.34 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "ede14989-31f9-4704-8651-5d98867389f2")
+      (property "Reference" "#FLG01" (at 360.68 45.720000000000006 0)
+        (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "Value" "PWR_FLAG" (at 360.68 48.260000000000005 0)
+        (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "Footprint" "" (at 360.68 53.34 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "#FLG01") (unit 1))))) (wire (pts (xy 360.68 53.34) (xy 365.76 53.34)) (stroke (width 0) (type default)) (uuid "c2d20b33-d20b-4f6e-b1bb-7ecb9ea85149")) (label "+12V" (at 365.76 53.34 0) (effects (font (size 1.27 1.27))) (uuid "9e830d01-7e25-4d23-a32f-2976a7c02da4")) (symbol (lib_id "power:PWR_FLAG") (at 360.68 58.42 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "7eed263d-279f-442b-bfc5-363dc384ff6f")
+      (property "Reference" "#FLG02" (at 360.68 50.800000000000004 0)
+        (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "Value" "PWR_FLAG" (at 360.68 53.34 0)
+        (effects (font (size 1.27 1.27)) (hide yes)))
+      (property "Footprint" "" (at 360.68 58.42 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "#FLG02") (unit 1))))) (wire (pts (xy 360.68 58.42) (xy 365.76 58.42)) (stroke (width 0) (type default)) (uuid "2dd67139-4ffa-41b5-b5d6-83b43bbac1da")) (label "-12V" (at 365.76 58.42 0) (effects (font (size 1.27 1.27))) (uuid "97121d7b-f99a-4e83-adfd-6c45cdef3e2a")) (text "LM1875T STEREO AMPLIFIER" (at 25.4 25.4 0) (effects (font (size 2.0 2.0)) (justify left bottom)) (uuid "4d1bca72-aedf-4cfd-92c3-f18430da8d60")) (text "Through-hole parts | +/-12 V DC supply | 4 ohm speakers | line-level input" (at 25.4 30.48 0) (effects (font (size 1.3 1.3)) (justify left bottom)) (uuid "b7cbe783-9b6c-42d0-a48d-fdac88fb9fee")) (text "LM1875T tab is connected to -12 V. Use a heatsink; isolate it from a grounded chassis." (at 25.4 263.0 0) (effects (font (size 1.2 1.2)) (justify left bottom)) (uuid "166132be-2381-4db7-9390-5275eabe66ad")) (text "Check supply polarity and output DC offset before connecting speakers. Begin at low volume." (at 25.4 268.0 0) (effects (font (size 1.2 1.2)) (justify left bottom)) (uuid "8b34c2d5-8b31-4443-af41-6b5e08fb2a0d")) (text "The 15 VA supply limits sustained output; 5 W per channel continuous is not guaranteed." (at 25.4 273.0 0) (effects (font (size 1.2 1.2)) (justify left bottom)) (uuid "0c124540-fb8f-4f8a-b7db-da0f53d76124")) (text "L CHANNEL" (at 25.4 76.2 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "1e50fa75-2326-4f6d-9db5-6153e4c81cd4")) (symbol (lib_id "Amplifier_Audio:LM1875") (at 205.74 93.98 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "dbc60301-6116-4d64-8714-7a2b53a551b6")
+      (property "Reference" "U1" (at 205.74 85.09 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "LM1875T" (at 205.74 87.63000000000001 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Package_TO_SOT_THT:TO-220-5_Vertical" (at 205.74 93.98 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "U1") (unit 1))))) (wire (pts (xy 203.2 86.36) (xy 203.2 81.28)) (stroke (width 0) (type default)) (uuid "21b07093-b825-4d7d-ace1-852a62596849")) (label "+12V" (at 203.2 81.28 90) (effects (font (size 1.27 1.27))) (uuid "494adcd8-36b9-4e97-9059-25e01d7433ad")) (wire (pts (xy 203.2 101.6) (xy 203.2 106.68)) (stroke (width 0) (type default)) (uuid "6ed45674-9437-4245-b9da-10080b74bda7")) (label "-12V" (at 203.2 106.68 270) (effects (font (size 1.27 1.27))) (uuid "0a047aad-a5cd-471f-9534-ab4f14b5a946")) (symbol (lib_id "Device:C") (at 133.35 91.44 90) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "b47de4a2-9563-4aca-903e-cd7b109cd6d3")
+      (property "Reference" "C1" (at 133.35 81.28 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "2.2uF" (at 133.35 83.82 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" (at 133.35 91.44 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "C1") (unit 1))))) (wire (pts (xy 129.54 91.44) (xy 124.46 91.44)) (stroke (width 0) (type default)) (uuid "bcc48ba2-499c-4c79-a4e5-64a587150e70")) (label "VOL_L" (at 124.46 91.44 180) (effects (font (size 1.27 1.27))) (uuid "27518674-490f-4292-9865-38714355bc61")) (wire (pts (xy 137.16 91.44) (xy 198.12 91.44)) (stroke (width 0) (type default)) (uuid "451fb03a-4158-47dc-85ec-2da65309104a")) (symbol (lib_id "Device:R") (at 170.18 101.60000000000001 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "1f1b3392-8df2-4078-9842-4152bb23fb0b")
+      (property "Reference" "R1" (at 170.18 91.44000000000001 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "22k" (at 170.18 93.98 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 170.18 101.60000000000001 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "R1") (unit 1))))) (wire (pts (xy 198.12 91.44) (xy 170.18 91.44)) (stroke (width 0) (type default)) (uuid "53eca20a-2726-4b0b-9ec3-10fdbbcd2b30")) (wire (pts (xy 170.18 91.44) (xy 170.18 97.79)) (stroke (width 0) (type default)) (uuid "99f881f8-578b-4f84-a4b4-bd4a4de89dd8")) (symbol (lib_id "Device:R") (at 248.92 96.52000000000001 90) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "2ae0af99-889d-4538-8578-0c8be61a76dc")
+      (property "Reference" "R2" (at 248.92 86.36000000000001 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "20k" (at 248.92 88.9 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 248.92 96.52000000000001 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "R2") (unit 1))))) (wire (pts (xy 198.12 96.52) (xy 245.11 96.52)) (stroke (width 0) (type default)) (uuid "c2d474f9-3501-484d-a3fd-dbb0d746b5e3")) (wire (pts (xy 252.73 96.52) (xy 256.54 96.52)) (stroke (width 0) (type default)) (uuid "0ecd0032-df59-4e9e-9b60-aa03e24e44fc")) (wire (pts (xy 256.54 96.52) (xy 256.54 93.98)) (stroke (width 0) (type default)) (uuid "60879d7e-b7d2-46b4-9995-9f9fc2f2e0d3")) (wire (pts (xy 256.54 93.98) (xy 213.36 93.98)) (stroke (width 0) (type default)) (uuid "46181801-c46d-4476-a34e-ac18687e2cda")) (symbol (lib_id "Device:R") (at 218.44 101.60000000000001 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "478056a6-c16e-4a8d-a53e-557e6f601642")
+      (property "Reference" "R3" (at 218.44 91.44000000000001 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "1k" (at 218.44 93.98 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 218.44 101.60000000000001 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "R3") (unit 1))))) (wire (pts (xy 198.12 96.52) (xy 218.44 96.52)) (stroke (width 0) (type default)) (uuid "61cd2548-6f77-4d07-9e56-749d88ba823c")) (wire (pts (xy 218.44 96.52) (xy 218.44 97.79)) (stroke (width 0) (type default)) (uuid "c0bc8f3e-9c48-4077-ab34-87d7a199a568")) (symbol (lib_id "Device:C_Polarized") (at 218.44 113.03 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "28754211-dd7f-49b4-ba15-abc0916ec7ec")
+      (property "Reference" "C2" (at 218.44 102.87 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "22uF/25V" (at 218.44 105.41 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (at 218.44 113.03 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "C2") (unit 1))))) (wire (pts (xy 218.44 105.41) (xy 218.44 109.22)) (stroke (width 0) (type default)) (uuid "b627be42-0bf9-4302-a42c-5f821c799500")) (symbol (lib_id "Connector_Generic:Conn_01x02") (at 365.76 93.98 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "d099a36b-fce3-4ad8-ae66-29ac776d885b")
+      (property "Reference" "J3" (at 365.76 83.82000000000001 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "L SPEAKER" (at 365.76 86.36 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal" (at 365.76 93.98 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "J3") (unit 1))))) (wire (pts (xy 213.36 93.98) (xy 360.68 93.98)) (stroke (width 0) (type default)) (uuid "a7b33acb-9915-4b62-b594-6ee05905d077")) (symbol (lib_id "Device:R") (at 307.34 123.19 90) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "cf63cfe7-d1c7-4cb2-afa3-9376053421d4")
+      (property "Reference" "R4" (at 307.34 113.03 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "1 ohm/2W" (at 307.34 115.57 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 307.34 123.19 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "R4") (unit 1))))) (symbol (lib_id "Device:C") (at 337.82 123.19 90) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "d72b6bd2-d2c7-4286-a9a4-1115ede7d645")
+      (property "Reference" "C3" (at 337.82 113.03 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "220nF" (at 337.82 115.57 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" (at 337.82 123.19 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "C3") (unit 1))))) (wire (pts (xy 213.36 93.98) (xy 299.72 93.98)) (stroke (width 0) (type default)) (uuid "bedccdbf-6b4e-4551-bae3-5cce5e5ab96d")) (wire (pts (xy 299.72 93.98) (xy 299.72 123.19)) (stroke (width 0) (type default)) (uuid "f70caea7-e4df-49d3-9c25-ce1132efda78")) (wire (pts (xy 299.72 123.19) (xy 303.53 123.19)) (stroke (width 0) (type default)) (uuid "2ea14d02-e409-4d1d-bd4f-1f3ee52d4744")) (wire (pts (xy 311.15 123.19) (xy 334.01 123.19)) (stroke (width 0) (type default)) (uuid "900f82f1-716a-42e7-ae88-414f8a1443f1")) (symbol (lib_id "Device:C") (at 231.14 144.78 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "1f553ad4-47cd-4be4-9d4d-1f557e2d554e")
+      (property "Reference" "C4" (at 231.14 121.92 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "100nF" (at 231.14 124.46000000000001 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" (at 231.14 144.78 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "C4") (unit 1))))) (symbol (lib_id "Device:C_Polarized") (at 248.92 144.78 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "ce64b299-0b19-472b-9ffc-2a03f3998644")
+      (property "Reference" "C5" (at 248.92 121.92 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "100uF/25V" (at 248.92 124.46000000000001 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (at 248.92 144.78 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "C5") (unit 1))))) (symbol (lib_id "Device:C") (at 266.7 144.78 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "958099d2-62a5-4db5-8f81-01a57eb6a6a4")
+      (property "Reference" "C6" (at 266.7 121.92 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "100nF" (at 266.7 124.46000000000001 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" (at 266.7 144.78 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "C6") (unit 1))))) (symbol (lib_id "Device:C_Polarized") (at 284.48 144.78 180) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "97f88c03-99f7-41ae-89f1-a2f2b498af4a")
+      (property "Reference" "C7" (at 284.48 121.92 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "100uF/25V" (at 284.48 124.46000000000001 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (at 284.48 144.78 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "C7") (unit 1))))) (wire (pts (xy 190.5 132.08) (xy 248.92 132.08)) (stroke (width 0) (type default)) (uuid "322bed64-bb7c-4d7d-a308-513e9af870e3")) (wire (pts (xy 231.14 132.08) (xy 231.14 140.97)) (stroke (width 0) (type default)) (uuid "1be0c11e-107d-4893-a272-f009e95e4820")) (junction (at 231.14 132.08) (diameter 1.27) (color 0 0 0 0) (uuid "5ace60df-6414-4ced-83cb-ca9c26d78296")) (wire (pts (xy 248.92 132.08) (xy 248.92 140.97)) (stroke (width 0) (type default)) (uuid "41148195-e5b8-455d-942d-980e86aa25fa")) (junction (at 248.92 132.08) (diameter 1.27) (color 0 0 0 0) (uuid "2dad06b5-a431-4f20-abbf-a556a4f7011b")) (wire (pts (xy 190.5 132.08) (xy 185.42 132.08)) (stroke (width 0) (type default)) (uuid "e22000d4-311e-40ed-8030-ae7345270366")) (label "+12V" (at 185.42 132.08 180) (effects (font (size 1.27 1.27))) (uuid "fabc3a94-8821-4f99-8e65-4d7e36d06823")) (wire (pts (xy 266.7 132.08) (xy 284.48 132.08)) (stroke (width 0) (type default)) (uuid "05bb5724-1e48-4fce-951e-c566193bdb21")) (junction (at 266.7 132.08) (diameter 1.27) (color 0 0 0 0) (uuid "73f14d35-9e4e-4631-a1bf-f248ca180951")) (wire (pts (xy 266.7 132.08) (xy 266.7 140.97)) (stroke (width 0) (type default)) (uuid "bd64e81b-265c-4700-8ff5-4d914f6f6c8e")) (junction (at 266.7 132.08) (diameter 1.27) (color 0 0 0 0) (uuid "d559abaf-ff0a-47be-9dcb-4a50906a65c9")) (wire (pts (xy 284.48 132.08) (xy 284.48 140.97)) (stroke (width 0) (type default)) (uuid "943b1c8e-5702-4119-a5fc-e589a6e7a729")) (junction (at 284.48 132.08) (diameter 1.27) (color 0 0 0 0) (uuid "fcf1941c-6747-410c-9cae-4417601acdaa")) (wire (pts (xy 266.7 132.08) (xy 261.62 132.08)) (stroke (width 0) (type default)) (uuid "70978664-d490-42f4-83b3-7b60d8b12c35")) (label "-12V" (at 261.62 132.08 180) (effects (font (size 1.27 1.27))) (uuid "6d569129-3511-431f-9e78-3fcee8852310")) (wire (pts (xy 170.18 156.21) (xy 284.48 156.21)) (stroke (width 0) (type default)) (uuid "fce6d0e1-a665-492a-a3e8-372e061f7d8b")) (wire (pts (xy 170.18 156.21) (xy 165.1 156.21)) (stroke (width 0) (type default)) (uuid "746aabde-289c-4517-af6e-9e64339cb593")) (label "GND" (at 165.1 156.21 180) (effects (font (size 1.27 1.27))) (uuid "9bc6e7f9-2c78-4703-85b4-21143561b07f")) (junction (at 170.18 156.21) (diameter 1.27) (color 0 0 0 0) (uuid "b7ab2f43-a7a7-4fc8-8e87-de8dd63bd3d3")) (wire (pts (xy 170.18 105.41) (xy 170.18 156.21)) (stroke (width 0) (type default)) (uuid "5631ad8f-827c-4ea4-a6ec-5c3b55e70d8f")) (junction (at 170.18 156.21) (diameter 1.27) (color 0 0 0 0) (uuid "2dc93564-4a16-43e8-9d0e-bb02071087e5")) (wire (pts (xy 218.44 116.84) (xy 218.44 156.21)) (stroke (width 0) (type default)) (uuid "33800800-b3c3-4ab0-82d5-e0c22fd3a7c8")) (junction (at 218.44 156.21) (diameter 1.27) (color 0 0 0 0) (uuid "b11fb9ac-c3f9-4160-9d20-6921d8770291")) (wire (pts (xy 231.14 148.59) (xy 231.14 156.21)) (stroke (width 0) (type default)) (uuid "ea3ed6a8-b31b-471f-9130-f2e2fb3d141a")) (junction (at 231.14 156.21) (diameter 1.27) (color 0 0 0 0) (uuid "c9020ec9-910b-4d80-bc75-559e86418d7f")) (wire (pts (xy 248.92 148.59) (xy 248.92 156.21)) (stroke (width 0) (type default)) (uuid "9bf05c49-8ded-40e3-b074-222641fc5eb2")) (junction (at 248.92 156.21) (diameter 1.27) (color 0 0 0 0) (uuid "39e3eb92-0d0b-4c81-b9f4-38cca0743e15")) (wire (pts (xy 266.7 148.59) (xy 266.7 156.21)) (stroke (width 0) (type default)) (uuid "41b192f5-2dae-4433-8dc2-ee9a109c21bb")) (junction (at 266.7 156.21) (diameter 1.27) (color 0 0 0 0) (uuid "4cffd385-eb42-4f07-b10a-e9b9be8e36c8")) (wire (pts (xy 284.48 148.59) (xy 284.48 156.21)) (stroke (width 0) (type default)) (uuid "7d20a638-c3f8-472a-873a-b61f31ff1e03")) (junction (at 284.48 156.21) (diameter 1.27) (color 0 0 0 0) (uuid "47fe1b78-cfa0-47e6-8a9f-fdc050bb4d64")) (wire (pts (xy 360.68 96.52) (xy 365.76 96.52)) (stroke (width 0) (type default)) (uuid "aceab89a-6da6-486f-a32c-89f10d33bfe5")) (label "GND" (at 365.76 96.52 0) (effects (font (size 1.27 1.27))) (uuid "9f18f38c-9f83-47dc-b073-6af810536fe9")) (wire (pts (xy 341.63 123.19) (xy 346.71 123.19)) (stroke (width 0) (type default)) (uuid "2eb848dc-e5a6-4cb1-9732-17712f5d5092")) (label "GND" (at 346.71 123.19 0) (effects (font (size 1.27 1.27))) (uuid "80938527-b72f-419e-8a0b-fee5a8ecfa59")) (text "R CHANNEL" (at 25.4 172.72 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "18e0d9d5-c063-4f83-9f1e-439ef65dced3")) (symbol (lib_id "Amplifier_Audio:LM1875") (at 205.74 190.5 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "40e9a937-682d-46dd-9785-5c6edca0b528")
+      (property "Reference" "U2" (at 205.74 181.61 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "LM1875T" (at 205.74 184.15 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Package_TO_SOT_THT:TO-220-5_Vertical" (at 205.74 190.5 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "U2") (unit 1))))) (wire (pts (xy 203.2 182.88) (xy 203.2 177.8)) (stroke (width 0) (type default)) (uuid "c5971d76-6726-41ce-8ba3-0122984cfd35")) (label "+12V" (at 203.2 177.8 90) (effects (font (size 1.27 1.27))) (uuid "7a81c9f9-c29d-433e-8473-f5751021c8df")) (wire (pts (xy 203.2 198.12) (xy 203.2 203.2)) (stroke (width 0) (type default)) (uuid "1b1ba16b-dffa-44c8-9b16-a14967ed66b3")) (label "-12V" (at 203.2 203.2 270) (effects (font (size 1.27 1.27))) (uuid "9001974e-1840-4214-bd08-a3fa18c92f5d")) (symbol (lib_id "Device:C") (at 133.35 187.96 90) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "0c3e3d7a-c542-449e-bbdf-d5e1cd9975fb")
+      (property "Reference" "C12" (at 133.35 177.8 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "2.2uF" (at 133.35 180.34 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" (at 133.35 187.96 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "C12") (unit 1))))) (wire (pts (xy 129.54 187.96) (xy 124.46 187.96)) (stroke (width 0) (type default)) (uuid "eaaa4cc4-80cb-4948-b870-36597dfbb41a")) (label "VOL_R" (at 124.46 187.96 180) (effects (font (size 1.27 1.27))) (uuid "97e88bd1-35d9-4a6b-b1ac-0027ff9b1fba")) (wire (pts (xy 137.16 187.96) (xy 198.12 187.96)) (stroke (width 0) (type default)) (uuid "8d57ab7f-5835-49e2-aeb0-6ad691f7deaa")) (symbol (lib_id "Device:R") (at 170.18 198.12 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "ea348de8-24e2-4428-9a31-92ea9a90c3f0")
+      (property "Reference" "R5" (at 170.18 187.96 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "22k" (at 170.18 190.5 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 170.18 198.12 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "R5") (unit 1))))) (wire (pts (xy 198.12 187.96) (xy 170.18 187.96)) (stroke (width 0) (type default)) (uuid "ee9cf824-f121-42d5-881a-651afb15e0e8")) (wire (pts (xy 170.18 187.96) (xy 170.18 194.31)) (stroke (width 0) (type default)) (uuid "c68e00bd-cc49-4bd2-913e-4a1d481dc184")) (symbol (lib_id "Device:R") (at 248.92 193.04 90) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "afce3fdd-3b43-4e70-877e-3397e2f10589")
+      (property "Reference" "R6" (at 248.92 182.88 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "20k" (at 248.92 185.42 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 248.92 193.04 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "R6") (unit 1))))) (wire (pts (xy 198.12 193.04) (xy 245.11 193.04)) (stroke (width 0) (type default)) (uuid "aae9ae02-5d18-4fc3-83c2-f15e1a3bf4b4")) (wire (pts (xy 252.73 193.04) (xy 256.54 193.04)) (stroke (width 0) (type default)) (uuid "94c30c9c-0aba-492a-818e-ecf5e60f5cf9")) (wire (pts (xy 256.54 193.04) (xy 256.54 190.5)) (stroke (width 0) (type default)) (uuid "35adccd2-0166-4bdf-b35b-18e58cb8116b")) (wire (pts (xy 256.54 190.5) (xy 213.36 190.5)) (stroke (width 0) (type default)) (uuid "bd82f182-c438-4d32-b234-029a51131024")) (symbol (lib_id "Device:R") (at 218.44 198.12 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "bc6691f3-6850-4a50-ab2b-d9f139ab2ccf")
+      (property "Reference" "R7" (at 218.44 187.96 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "1k" (at 218.44 190.5 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 218.44 198.12 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "R7") (unit 1))))) (wire (pts (xy 198.12 193.04) (xy 218.44 193.04)) (stroke (width 0) (type default)) (uuid "ba80ebb5-df2d-455e-bf6a-6bc1d1b014cc")) (wire (pts (xy 218.44 193.04) (xy 218.44 194.31)) (stroke (width 0) (type default)) (uuid "291b05d3-52d3-4ddb-9e60-ce0d974cd1f5")) (symbol (lib_id "Device:C_Polarized") (at 218.44 209.55 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "7d0571a9-7c84-4520-a911-7ac962d9f706")
+      (property "Reference" "C13" (at 218.44 199.39000000000001 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "22uF/25V" (at 218.44 201.93 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (at 218.44 209.55 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "C13") (unit 1))))) (wire (pts (xy 218.44 201.93) (xy 218.44 205.74)) (stroke (width 0) (type default)) (uuid "8e347683-362e-4051-91a1-7975d0e3cdd9")) (symbol (lib_id "Connector_Generic:Conn_01x02") (at 365.76 190.5 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "9557d8e3-1718-4c58-a071-2360c815f3ae")
+      (property "Reference" "J4" (at 365.76 180.34 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "R SPEAKER" (at 365.76 182.88 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal" (at 365.76 190.5 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "J4") (unit 1))))) (wire (pts (xy 213.36 190.5) (xy 360.68 190.5)) (stroke (width 0) (type default)) (uuid "f0e367f4-d743-4a69-b6d4-123ca7e6bcee")) (symbol (lib_id "Device:R") (at 307.34 219.71 90) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "2dbc2718-078a-4459-9509-9a9eb4db5cb3")
+      (property "Reference" "R8" (at 307.34 209.55 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "1 ohm/2W" (at 307.34 212.09 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 307.34 219.71 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "R8") (unit 1))))) (symbol (lib_id "Device:C") (at 337.82 219.71 90) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "ffa823c3-ed96-4254-bd2e-7df4ef139d1c")
+      (property "Reference" "C14" (at 337.82 209.55 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "220nF" (at 337.82 212.09 270)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" (at 337.82 219.71 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "C14") (unit 1))))) (wire (pts (xy 213.36 190.5) (xy 299.72 190.5)) (stroke (width 0) (type default)) (uuid "c15ad47e-0497-41d4-9fd9-f0228a80bc3f")) (wire (pts (xy 299.72 190.5) (xy 299.72 219.71)) (stroke (width 0) (type default)) (uuid "9dd05011-3969-4b2b-a672-de87fafc2614")) (wire (pts (xy 299.72 219.71) (xy 303.53 219.71)) (stroke (width 0) (type default)) (uuid "de43a0de-ea47-49da-be56-f4ad7f27676d")) (wire (pts (xy 311.15 219.71) (xy 334.01 219.71)) (stroke (width 0) (type default)) (uuid "f151b30d-faf8-4656-af49-c00048cd8919")) (symbol (lib_id "Device:C") (at 231.14 241.3 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "799710d0-acb0-45e5-aec0-db753280c9d4")
+      (property "Reference" "C15" (at 231.14 218.44 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "100nF" (at 231.14 220.98000000000002 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" (at 231.14 241.3 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "C15") (unit 1))))) (symbol (lib_id "Device:C_Polarized") (at 248.92 241.3 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "da916376-f1f6-4686-93e9-4c872083a539")
+      (property "Reference" "C16" (at 248.92 218.44 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "100uF/25V" (at 248.92 220.98000000000002 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (at 248.92 241.3 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "C16") (unit 1))))) (symbol (lib_id "Device:C") (at 266.7 241.3 0) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "b13082de-3b90-4cad-91c8-843a6b90625c")
+      (property "Reference" "C17" (at 266.7 218.44 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "100nF" (at 266.7 220.98000000000002 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" (at 266.7 241.3 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "C17") (unit 1))))) (symbol (lib_id "Device:C_Polarized") (at 284.48 241.3 180) (unit 1)
+      (in_bom yes) (on_board yes) (dnp no) (uuid "fb833f44-770e-4e1f-9715-7e05c26e1c4f")
+      (property "Reference" "C18" (at 284.48 218.44 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "100uF/25V" (at 284.48 220.98000000000002 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (at 284.48 241.3 0)
+        (effects (font (size 1 1)) (hide yes)))
+      (instances (project "lm1875-stereo" (path "/0ea6f97a-5872-4031-9f56-c1f6816dc66f" (reference "C18") (unit 1))))) (wire (pts (xy 190.5 228.6) (xy 248.92 228.6)) (stroke (width 0) (type default)) (uuid "9d16d158-aa88-4e4a-8d8f-39afe7384ba3")) (wire (pts (xy 231.14 228.6) (xy 231.14 237.49)) (stroke (width 0) (type default)) (uuid "a7bcfcd5-c1ae-4730-8e11-b338915027bf")) (junction (at 231.14 228.6) (diameter 1.27) (color 0 0 0 0) (uuid "61be5e07-4d24-4854-ad4d-9132ea2e039f")) (wire (pts (xy 248.92 228.6) (xy 248.92 237.49)) (stroke (width 0) (type default)) (uuid "838ddf66-59e3-4c9e-bfaa-e9e7f1282efe")) (junction (at 248.92 228.6) (diameter 1.27) (color 0 0 0 0) (uuid "ab6b6ca2-56de-4f41-bc17-ff979c8616a6")) (wire (pts (xy 190.5 228.6) (xy 185.42 228.6)) (stroke (width 0) (type default)) (uuid "273b7a3c-430b-46a6-b8db-06fc2a17a155")) (label "+12V" (at 185.42 228.6 180) (effects (font (size 1.27 1.27))) (uuid "2213b0e7-0675-4208-9a2a-48ab31df9c54")) (wire (pts (xy 266.7 228.6) (xy 284.48 228.6)) (stroke (width 0) (type default)) (uuid "dd745e19-95c2-4da0-bb18-a8ca855f017b")) (junction (at 266.7 228.6) (diameter 1.27) (color 0 0 0 0) (uuid "0c1b0136-8b79-4808-80ab-8158c260af24")) (wire (pts (xy 266.7 228.6) (xy 266.7 237.49)) (stroke (width 0) (type default)) (uuid "dd72fc88-0ffb-4fdf-8118-c83cf9f78e7d")) (junction (at 266.7 228.6) (diameter 1.27) (color 0 0 0 0) (uuid "833b67be-7b12-43d5-8bac-63c9acf164ec")) (wire (pts (xy 284.48 228.6) (xy 284.48 237.49)) (stroke (width 0) (type default)) (uuid "a927357e-a1a5-4966-b35f-975034f3f135")) (junction (at 284.48 228.6) (diameter 1.27) (color 0 0 0 0) (uuid "1f1ac3c8-9e14-4bee-836a-e29fe26587ae")) (wire (pts (xy 266.7 228.6) (xy 261.62 228.6)) (stroke (width 0) (type default)) (uuid "d04211cf-97a3-4263-ae56-05c22f38b2a7")) (label "-12V" (at 261.62 228.6 180) (effects (font (size 1.27 1.27))) (uuid "045c1167-1cab-4891-bae1-444bbbd792fd")) (wire (pts (xy 170.18 252.73) (xy 284.48 252.73)) (stroke (width 0) (type default)) (uuid "e5fd1302-4bb5-494d-b433-f7d6a38ee7a5")) (wire (pts (xy 170.18 252.73) (xy 165.1 252.73)) (stroke (width 0) (type default)) (uuid "73b7cd54-30fd-417a-af6a-c878fccf7e0d")) (label "GND" (at 165.1 252.73 180) (effects (font (size 1.27 1.27))) (uuid "db2f8bff-c5dc-46fd-9a7a-cc8f5b1a2fea")) (junction (at 170.18 252.73) (diameter 1.27) (color 0 0 0 0) (uuid "5b3fc5f1-2c45-426d-b11f-9e58360dd568")) (wire (pts (xy 170.18 201.93) (xy 170.18 252.73)) (stroke (width 0) (type default)) (uuid "3177de52-1876-4f89-84f0-7f25a4d56a87")) (junction (at 170.18 252.73) (diameter 1.27) (color 0 0 0 0) (uuid "a5f6dcaa-3e50-4874-9c79-dced2e492608")) (wire (pts (xy 218.44 213.36) (xy 218.44 252.73)) (stroke (width 0) (type default)) (uuid "a02bb1d6-67bf-4fd0-92d6-0d6a6b2a1c68")) (junction (at 218.44 252.73) (diameter 1.27) (color 0 0 0 0) (uuid "78a2393f-6752-4a10-9b02-7912e1762909")) (wire (pts (xy 231.14 245.11) (xy 231.14 252.73)) (stroke (width 0) (type default)) (uuid "cd4aca6d-6a92-44f1-93e7-21ecb86d9c22")) (junction (at 231.14 252.73) (diameter 1.27) (color 0 0 0 0) (uuid "ce22cbbd-0d85-4915-aa9c-059402fc94eb")) (wire (pts (xy 248.92 245.11) (xy 248.92 252.73)) (stroke (width 0) (type default)) (uuid "ea8db81b-ab38-47f7-824a-460013663ce5")) (junction (at 248.92 252.73) (diameter 1.27) (color 0 0 0 0) (uuid "c83ecdca-6fb4-41df-ba38-ce1ee1595bbb")) (wire (pts (xy 266.7 245.11) (xy 266.7 252.73)) (stroke (width 0) (type default)) (uuid "d2097243-7c9a-47d2-adf7-96f0069164fd")) (junction (at 266.7 252.73) (diameter 1.27) (color 0 0 0 0) (uuid "ef6ce570-adcd-46eb-a21d-1d1bc3ca31ba")) (wire (pts (xy 284.48 245.11) (xy 284.48 252.73)) (stroke (width 0) (type default)) (uuid "c3c926b3-369a-433b-9318-ea4285148c12")) (junction (at 284.48 252.73) (diameter 1.27) (color 0 0 0 0) (uuid "38df2fe4-373d-4d12-b01f-933fa3839e94")) (wire (pts (xy 360.68 193.04) (xy 365.76 193.04)) (stroke (width 0) (type default)) (uuid "ac174522-5cb6-4203-b6d7-023ec4994f5c")) (label "GND" (at 365.76 193.04 0) (effects (font (size 1.27 1.27))) (uuid "9cb87847-842c-4ffd-be2a-ba7bbb84dd74")) (wire (pts (xy 341.63 219.71) (xy 346.71 219.71)) (stroke (width 0) (type default)) (uuid "754fedbc-84cc-4bbc-a87a-0cbf31882ea8")) (label "GND" (at 346.71 219.71 0) (effects (font (size 1.27 1.27))) (uuid "f914c4f4-bdae-484c-a08d-80017974f763"))
+ (embedded_fonts no)
+)
